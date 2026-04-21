@@ -373,10 +373,10 @@ a:hover {
 
 .school-name {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.9rem, 3.2vw, 2.8rem);
-  line-height: 1.15;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.2;
   color: #1f2a44;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .role-block {

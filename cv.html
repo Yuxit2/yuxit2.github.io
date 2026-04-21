@@ -1,32 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Yuxi Tian</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV | Yuxi Tian</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="course.html">Proposed Course</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="publications.html">Publications</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="site-logo">Yuxi Tian</div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="https://yuxit2.github.io/proposed_planning_course/" target="_blank">Proposed Course</a></li>
+          <li><a class="active" href="cv.html">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="cv">
-      <!-- Add your CV content here, using the data from cv.md -->
-    </section>
-  </main>
+  <main class="container cv-page">
 
-  <footer>
-    <p>&copy; 2026 Yuxi Tian. All rights reserved.</p>
-  </footer>
+    <h1 class="cv-title">Curriculum Vitae</h1>
+
+    <!-- Education -->
+    <section class="cv-section">
+      <h2>Education</h2>
+
+      <div class="cv-item">
+        <div class="cv-left">2025 – Present</div>
+        <div class="cv-right">
+          <strong>Ph.D. in Urban and Regional Planning</strong><br>
+          University of Hawai‘i at Mānoa
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-left">2022 – 2024</div>
+        <div class="cv-right">
+          <strong>M.S. in Statistics-Analytics</strong><br>
+          University of Illinois Urbana-Champaign<br>
+          GPA: 3.8/4.0
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-left">2018 – 2022</div>
+        <div class="cv-right">
+          <strong>B.Eng. in Measurement and Control Technology and Instrument</strong><br>
+          Heilongjiang Institute of Technology<br>
+          GPA: 3.7/4.0
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="cv-section">
+      <h2>Publications</h2>
+
+      <div class="cv-item">
+        <div class="cv-left">2026</div>
+        <div class="cv-right">
+          <strong>Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu, Hawaii</strong><br>
+          Yuxi Tian, Suwan Shen<br>
+          International Association for China Planning (IACP), Conference Paper (Accepted)
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Professional Experience -->
+    <section class="cv-section">
+      <h2>Research & Professional Experience</h2>
+
+      <div class="cv-item">
+        <div class="cv-left">2025 – Present</div>
+        <div class="cv-right">
+          <strong>Research Project with Prof. Suwan Shen</strong><br>
+          University of Hawai‘i at Mānoa
+          <ul>
+            <li>Analyzed HOLO Smart Card data to examine age-based transit behavior.</li>
+            <li>Developed transit performance indicators and linked them with built environment factors.</li>
+            <li>Identified behavioral differences between senior and adult riders.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-left">2024 – 2025</div>
+        <div class="cv-right">
+          <strong>Electric Vehicle Charging Research</strong>
+          <ul>
+            <li>Analyzed EV charging patterns using EV Watts dataset.</li>
+            <li>Documented 40 abnormal charging patterns across the U.S.</li>
+            <li>Explored climate-related impacts through literature review.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-left">2024 – 2025</div>
+        <div class="cv-right">
+          <strong>Research Assistant, IRisk Lab</strong><br>
+          University of Illinois Urbana-Champaign
+          <ul>
+            <li>Developed web scraping tools for commercial real estate data.</li>
+            <li>Built UI components and performed ETL processes using Python.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-left">2024</div>
+        <div class="cv-right">
+          <strong>Data Analyst, Synchrony Financial</strong>
+          <ul>
+            <li>Analyzed IVR system data and improved system performance.</li>
+            <li>Reduced agent transfers by 25%.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="cv-section">
+      <h2>Technical Skills</h2>
+
+      <div class="cv-item">
+        <div class="cv-left"></div>
+        <div class="cv-right">
+          <strong>GIS & Spatial Analysis:</strong> ArcGIS Pro, StoryMaps, GeoAI<br>
+          <strong>Data & Programming:</strong> Python, R, SQL, SAS, SPSS<br>
+          <strong>Methods:</strong> Statistical modeling, regression, spatial analysis
+        </div>
+      </div>
+    </section>
+
+  </main>
 </body>
 </html>

@@ -24,12 +24,11 @@
   </header>
 
   <main class="container main-layout">
-    <!-- Left Profile Card -->
+    <!-- Left Column -->
     <aside class="profile-column">
       <div class="profile-card">
         <div class="profile-image-wrapper">
-          <!-- 把这里替换成你的照片路径 -->
-          <img src="bio.jpg" alt="Yuxi Tian" class="profile-image" />
+          <img src="profile.jpg" alt="Yuxi Tian" class="profile-image" />
         </div>
 
         <h1 class="profile-name">Yuxi Tian</h1>
@@ -37,50 +36,49 @@
         <p class="profile-school">University of Hawai‘i at Mānoa</p>
 
         <div class="social-links">
+          <!-- Email -->
+          <a href="mailto:your_email@example.com" class="icon-link" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
 
-  <!-- Email -->
-  <a href="mailto:your_email@example.com" class="icon-link" aria-label="Email">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-      <polyline points="22,6 12,13 2,6"></polyline>
-    </svg>
-  </a>
+          <!-- Location -->
+          <a href="https://maps.app.goo.gl/kT12K3LprH7UvWCz7" target="_blank"
+             class="icon-link" aria-label="Location" title="View location on map">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </a>
 
-  <!-- Location -->
-  <a href="https://maps.app.goo.gl/kT12K3LprH7UvWCz7" target="_blank"
-     class="icon-link" aria-label="Location">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"></path>
-      <circle cx="12" cy="10" r="3"></circle>
-    </svg>
-  </a>
+          <!-- GitHub -->
+          <a href="https://github.com/" target="_blank" class="icon-link" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55
+              0-.27-.01-1.15-.02-2.08-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7
+              1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.67 1.25 3.32.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.27-5.23-5.66
+              0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.8 0
+              c2.2-1.48 3.17-1.17 3.17-1.17.62 1.57.23 2.73.11 3.02.73.8 1.18 1.82 1.18 3.07
+              0 4.4-2.69 5.36-5.25 5.65.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12
+              0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/>
+            </svg>
+          </a>
 
-  <!-- GitHub -->
-  <a href="https://github.com/" target="_blank" class="icon-link" aria-label="GitHub">
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 
-      0-.27-.01-1.15-.02-2.08-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 
-      1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.67 1.25 3.32.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.27-5.23-5.66 
-      0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .97-.31 3.18 1.17a11.1 11.1 0 0 1 5.8 0 
-      c2.2-1.48 3.17-1.17 3.17-1.17.62 1.57.23 2.73.11 3.02.73.8 1.18 1.82 1.18 3.07 
-      0 4.4-2.69 5.36-5.25 5.65.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 
-      0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5z"/>
-    </svg>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://linkedin.com" target="_blank" class="icon-link" aria-label="LinkedIn">
-    <svg viewBox="0 0 24 24" fill="currentColor">
-      <path d="M4.98 3.5C4.98 5 3.94 6 2.5 6S0 5 0 3.5 1.06 1 2.5 1 
-      4.98 2 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 
-      2.3-2.6 4.73-2.6C22 7.6 24 9.5 24 13.2V24h-5v-9.3c0-2.2-.8-3.7-2.8-3.7 
-      -1.53 0-2.44 1.03-2.84 2.03-.15.37-.18.88-.18 1.4V24h-5V8z"/>
-    </svg>
-  </a>
-
-</div>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" class="icon-link" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4.98 3.5C4.98 5 3.94 6 2.5 6S0 5 0 3.5 1.06 1 2.5 1
+              4.98 2 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27
+              2.3-2.6 4.73-2.6C22 7.6 24 9.5 24 13.2V24h-5v-9.3c0-2.2-.8-3.7-2.8-3.7
+              -1.53 0-2.44 1.03-2.84 2.03-.15.37-.18.88-.18 1.4V24h-5V8z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
 
       <div class="interest-card">
         <h2>Research Interests</h2>
@@ -88,75 +86,79 @@
           <li>Transportation Planning</li>
           <li>Travel Behavior</li>
           <li>Transit Equity</li>
-          <li>Urban Mobility</li>
+          <li>Urban Mobility and Data Analytics</li>
         </ul>
       </div>
     </aside>
 
-    <!-- Right Content -->
+    <!-- Right Column -->
     <section class="content-column" id="about">
       <h2 class="section-title">About</h2>
 
       <p>
         I am a PhD student in Urban and Regional Planning at the University of Hawai‘i at Mānoa,
         advised by <a href="https://scholar.google.com/citations?user=mS9yrUQAAAAJ&hl=en" target="_blank">Prof. Suwan Shen</a>.
-        My research interests lie at the intersection of artificial intelligence, transportation,
-        and urban equity.
+        My research focuses on the intersection of transportation, artificial intelligence, and urban equity.
       </p>
 
       <p>
-        I'm particularly intrigued by two emerging areas:
+        I am especially interested in how emerging technologies are reshaping travel behavior and mode choice.
+        In particular, I hope to better understand how AI-powered mobility services influence individual travel decisions
+        across different social and spatial contexts.
       </p>
 
       <p>
-        <strong>AI and Mode Choice Behavior</strong> — How are AI-powered mobility services reshaping individual
-        travel preferences and mode choice patterns? I aim to unpack the complex interplay of socio-demographics,
-        attitudes, and built environment factors in these AI-driven behavioral shifts.
+        Another part of my research examines equity and algorithmic bias in transportation systems.
+        As AI becomes more embedded in mobility planning and operations, I am interested in how data-driven models
+        can be evaluated more critically and designed to support fairer outcomes.
       </p>
 
       <p>
-        <strong>Equity and Algorithmic Bias in Transportation</strong> — As AI becomes more embedded in our mobility systems,
-        how can we ensure it promotes fairness and inclusivity rather than amplifying social inequities?
-        I'm keen to develop computational frameworks for auditing transportation AI models for bias and advancing more equitable outcomes.
+        Methodologically, I enjoy working with urban datasets, geospatial analysis, and statistical modeling.
+        I see quantitative methods as a way to better understand transportation inequalities and to inform more inclusive planning decisions.
       </p>
 
       <p>
-        Methodologically, I'm passionate about harnessing novel urban datasets, geospatial analytics,
-        and statistical modeling to derive insights that can inform more sustainable and just transportation planning.
+        Before starting my doctoral studies, I earned a B.Eng. from the Heilongjiang Institute of Technology
+        and an M.S. in Statistics-Analytics from the University of Illinois Urbana-Champaign.
+        My previous work and research experiences helped me build a strong interest in applying data-driven methods to real urban problems.
       </p>
 
       <p>
-        Prior to my doctoral studies, I earned a B.Eng. from the Heilongjiang Institute of Technology and an M.S.
-        in Statistics-Analytics from the University of Illinois at Urbana-Champaign. At UIUC, I had the opportunity
-        to apply my data science skills in various domains, from optimizing customer service systems to analyzing EV charging patterns.
-      </p>
-
-      <p>
-        Through my research, I hope to contribute to shaping mobility systems and urban futures that work better for all.
-        I'm always eager to connect with fellow researchers, practitioners, and anyone passionate about cities and transportation.
+        Through my research, I hope to contribute to more equitable and responsive transportation systems.
+        I am always happy to connect with researchers, students, and practitioners who are interested in cities, mobility, and planning.
       </p>
 
       <section class="updates-section" id="updates">
         <h2 class="section-title">Updates</h2>
+
         <div class="updates-list">
-          <div class="update-item">
-            <span class="update-date">Mar 2026</span>
-            <p>Paper accepted at IACP 2026: Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu.</p>
+          <div class="update-row">
+            <div class="update-date">Mar 2026</div>
+            <div class="update-text">
+              Paper accepted at IACP 2026: <em>Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu</em>.
+            </div>
           </div>
 
-          <div class="update-item">
-            <span class="update-date">Aug 2025</span>
-            <p>Started PhD in Urban & Regional Planning at UH Mānoa.</p>
+          <div class="update-row">
+            <div class="update-date">Aug 2025</div>
+            <div class="update-text">
+              Started PhD in Urban & Regional Planning at the University of Hawai‘i at Mānoa.
+            </div>
           </div>
 
-          <div class="update-item">
-            <span class="update-date">May 2024</span>
-            <p>Graduated with M.S. in Statistics-Analytics from UIUC.</p>
+          <div class="update-row">
+            <div class="update-date">May 2024</div>
+            <div class="update-text">
+              Graduated with M.S. in Statistics-Analytics from the University of Illinois Urbana-Champaign.
+            </div>
           </div>
 
-          <div class="update-item">
-            <span class="update-date">Feb 2024</span>
-            <p>Joined UIUC iRisk Lab as Research Assistant, analyzing commercial real estate data.</p>
+          <div class="update-row">
+            <div class="update-date">Feb 2024</div>
+            <div class="update-text">
+              Joined UIUC iRisk Lab as a Research Assistant, working on commercial real estate data analysis.
+            </div>
           </div>
         </div>
       </section>

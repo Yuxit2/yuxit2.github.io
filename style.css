@@ -170,19 +170,27 @@ a:hover {
   height: 42px;
   border-radius: 50%;
   border: 1.5px solid #cbd5e1;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   color: #64748b;
-  font-size: 1.1rem;
-  font-weight: 600;
+
   transition: all 0.25s ease;
 }
 
+/* ⭐ 核心：强制所有 SVG 统一大小 */
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* hover效果 */
 .social-links a:hover {
   color: #1f2a44;
   border-color: #c99a4b;
-  text-decoration: none;
 }
 
 .interest-card {

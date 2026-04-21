@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teaching - Yuxi Tian</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching | Yuxi Tian</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="course.html">Proposed Course</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="publications.html">Publications</a></li>
-      </ul>
-    </nav>
+  <!-- Header（和主页保持一致） -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="site-logo">Yuxi Tian</div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a class="active" href="teaching.html">Teaching</a></li>
+          <li><a href="course.html">Proposed Course</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="teaching">
-      <!-- Add your teaching content here, using the data from course.md -->
+  <!-- Main Content -->
+  <main class="container teaching-layout">
+
+    <h1 class="page-title">Teaching</h1>
+
+    <section class="teaching-section">
+      <h2>Teaching Assistant</h2>
+
+      <div class="teaching-item">
+        <h3>Introduction to GIS</h3>
+        <p class="teaching-meta">University of Hawai‘i at Mānoa · 2025 – Present</p>
+
+        <p>
+          Serve as a Teaching Assistant for an introductory GIS course. Responsibilities include
+          assisting students with lab assignments, supporting ArcGIS-based spatial analysis,
+          and helping students understand core geospatial concepts.
+        </p>
+      </div>
     </section>
+
+    <section class="teaching-section">
+      <h2>Teaching Interests</h2>
+
+      <p>
+        My teaching interests lie in transportation planning, urban data analytics,
+        and the integration of artificial intelligence into planning practice.
+        I am particularly interested in designing courses that combine theory,
+        data, and real-world applications.
+      </p>
+    </section>
+
   </main>
 
-  <footer>
-    <p>&copy; 2026 Yuxi Tian. All rights reserved.</p>
-  </footer>
 </body>
 </html>

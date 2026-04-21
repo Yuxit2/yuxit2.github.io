@@ -342,46 +342,130 @@ a:hover {
 /* ------------------------------
    Teaching Page
 ------------------------------ */
-.teaching-layout {
-  max-width: 900px;
-  padding: 40px 0;
+.teaching-page {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 42px 0 72px;
 }
 
-.page-title {
-  font-family: Georgia, serif;
-  font-size: 2.5rem;
-  color: #1f2a44;
-  margin-bottom: 30px;
-}
-
-.teaching-section {
+.teaching-hero {
+  max-width: 850px;
   margin-bottom: 40px;
 }
 
-.teaching-section h2 {
-  font-size: 1.4rem;
-  color: #1f2a44;
-  margin-bottom: 15px;
-}
-
-.teaching-item {
-  padding-left: 10px;
-}
-
-.teaching-item h3 {
-  font-size: 1.1rem;
-  margin-bottom: 5px;
-  color: #1f2a44;
-}
-
-.teaching-meta {
-  font-size: 0.9rem;
+.page-kicker {
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: #b8893c;
   margin-bottom: 10px;
 }
 
-.teaching-item p {
-  font-size: 0.95rem;
+.page-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  line-height: 1.1;
+  color: #1f2a44;
+  margin-bottom: 14px;
+}
+
+.page-intro {
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.75;
   color: #475569;
-  line-height: 1.6;
+}
+
+.teaching-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.teaching-entry {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 28px;
+  padding: 28px 0;
+  border-top: 1px solid #e6e3dc;
+}
+
+.teaching-entry:last-child {
+  border-bottom: 1px solid #e6e3dc;
+}
+
+.teaching-entry-left {
+  padding-top: 4px;
+}
+
+.teaching-period {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #b8893c;
+  white-space: nowrap;
+}
+
+.teaching-entry-right {
+  max-width: 820px;
+}
+
+.teaching-role {
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.teaching-entry-right h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #1f2a44;
+  margin-bottom: 8px;
+}
+
+.teaching-affiliation {
+  font-size: 0.96rem;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+
+.teaching-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.teaching-list li {
+  font-size: 0.97rem;
+  line-height: 1.72;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 860px) {
+  .teaching-entry {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 22px 0;
+  }
+
+  .teaching-entry-right h2 {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .teaching-page {
+    padding: 30px 0 56px;
+  }
+
+  .page-intro,
+  .teaching-list li,
+  .teaching-affiliation {
+    font-size: 0.95rem;
+  }
 }

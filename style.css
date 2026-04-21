@@ -46,6 +46,11 @@ a:hover {
   z-index: 100;
 }
 
+.site-header {
+  position: relative;
+  z-index: 9999;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;

@@ -354,7 +354,7 @@ a:hover {
 
 .teaching-main-title {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
   line-height: 1.05;
   color: #1f2a44;
   margin-bottom: 12px;

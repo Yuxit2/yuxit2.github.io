@@ -1,67 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yuxi Tian - Personal Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuxi Tian | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="course.html">Proposed Course</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="publications.html">Publications</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="site-logo">Yuxi Tian</div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="course.html">Proposed Course</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="about">
-      <h1>About Me</h1>
-      <p>I am a PhD student in Urban and Regional Planning at the University of Hawaiʻi at Mānoa, advised by <a href="https://scholar.google.com/citations?user=mS9yrUQAAAAJ&hl=en">Prof. Suwan Shen</a>. My research interests lie at the intersection of artificial intelligence, transportation, and urban equity.</p>
+  <main class="container main-layout">
+    <!-- Left Profile Card -->
+    <aside class="profile-column">
+      <div class="profile-card">
+        <div class="profile-image-wrapper">
+          <!-- 把这里替换成你的照片路径 -->
+          <img src="profile.jpg" alt="Yuxi Tian" class="profile-image" />
+        </div>
 
-      <p>I'm particularly intrigued by two emerging areas:</p>
+        <h1 class="profile-name">Yuxi Tian</h1>
+        <p class="profile-title">PhD Student in Urban and Regional Planning</p>
+        <p class="profile-school">University of Hawai‘i at Mānoa</p>
 
-      <p><strong>AI and Mode Choice Behavior</strong> — How are AI-powered mobility services reshaping individual travel preferences and mode choice patterns? I aim to unpack the complex interplay of socio-demographics, attitudes, and built environment factors in these AI-driven behavioral shifts.</p>
+        <div class="social-links">
+          <a href="mailto:your_email@example.com" aria-label="Email">✉</a>
+          <a href="#" aria-label="Location">⌖</a>
+          <a href="https://github.com/" target="_blank" aria-label="GitHub">⌘</a>
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
 
-      <p><strong>Equity and Algorithmic Bias in Transportation</strong> — As AI becomes more embedded in our mobility systems, how can we ensure it promotes fairness and inclusivity rather than amplifying social inequities? I'm keen to develop computational frameworks for auditing transportation AI models for bias and advancing more equitable outcomes.</p>
+      <div class="interest-card">
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Transportation Planning</li>
+          <li>Travel Behavior</li>
+          <li>Transit Equity</li>
+          <li>Urban Mobility</li>
+        </ul>
+      </div>
+    </aside>
 
-      <p>Methodologically, I'm passionate about harnessing novel urban datasets, geospatial analytics, and statistical modeling to derive insights that can inform more sustainable and just transportation planning.</p>
+    <!-- Right Content -->
+    <section class="content-column" id="about">
+      <h2 class="section-title">About</h2>
 
-      <p>Prior to my doctoral studies, I earned a B.Eng. from the Heilongjiang Institute of Technology and an M.S. in Statistics-Analytics from the University of Illinois at Urbana-Champaign. At UIUC, I had the opportunity to apply my data science skills in various domains, from optimizing customer service systems to analyzing EV charging patterns.</p>
+      <p>
+        I am a PhD student in Urban and Regional Planning at the University of Hawai‘i at Mānoa,
+        advised by <a href="https://scholar.google.com/citations?user=mS9yrUQAAAAJ&hl=en" target="_blank">Prof. Suwan Shen</a>.
+        My research interests lie at the intersection of artificial intelligence, transportation,
+        and urban equity.
+      </p>
 
-      <p>Through my research, I hope to contribute to shaping mobility systems and urban futures that work better for all. I'm always eager to connect with fellow researchers, practitioners, and anyone passionate about cities and transportation!</p>
-    </section>
+      <p>
+        I'm particularly intrigued by two emerging areas:
+      </p>
 
-    <section id="updates">
-      <h2>Updates</h2>
-      <ul>
-        <li>
-          <strong>Mar 2026</strong><br>
-          Paper accepted at IACP 2026: Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu
-        </li>
-        <li>
-          <strong>Aug 2025</strong><br>
-          Started PhD in Urban & Regional Planning at UH Mānoa
-        </li>
-        <li>
-          <strong>May 2024</strong><br>
-          Graduated with M.S. in Statistics-Analytics from UIUC
-        </li>
-        <li>
-          <strong>Feb 2024</strong><br>
-          Joined UIUC iRisk Lab as Research Assistant, analyzing commercial real estate data
-        </li>
-      </ul>
+      <p>
+        <strong>AI and Mode Choice Behavior</strong> — How are AI-powered mobility services reshaping individual
+        travel preferences and mode choice patterns? I aim to unpack the complex interplay of socio-demographics,
+        attitudes, and built environment factors in these AI-driven behavioral shifts.
+      </p>
+
+      <p>
+        <strong>Equity and Algorithmic Bias in Transportation</strong> — As AI becomes more embedded in our mobility systems,
+        how can we ensure it promotes fairness and inclusivity rather than amplifying social inequities?
+        I'm keen to develop computational frameworks for auditing transportation AI models for bias and advancing more equitable outcomes.
+      </p>
+
+      <p>
+        Methodologically, I'm passionate about harnessing novel urban datasets, geospatial analytics,
+        and statistical modeling to derive insights that can inform more sustainable and just transportation planning.
+      </p>
+
+      <p>
+        Prior to my doctoral studies, I earned a B.Eng. from the Heilongjiang Institute of Technology and an M.S.
+        in Statistics-Analytics from the University of Illinois at Urbana-Champaign. At UIUC, I had the opportunity
+        to apply my data science skills in various domains, from optimizing customer service systems to analyzing EV charging patterns.
+      </p>
+
+      <p>
+        Through my research, I hope to contribute to shaping mobility systems and urban futures that work better for all.
+        I'm always eager to connect with fellow researchers, practitioners, and anyone passionate about cities and transportation.
+      </p>
+
+      <section class="updates-section" id="updates">
+        <h2 class="section-title">Updates</h2>
+        <div class="updates-list">
+          <div class="update-item">
+            <span class="update-date">Mar 2026</span>
+            <p>Paper accepted at IACP 2026: Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu.</p>
+          </div>
+
+          <div class="update-item">
+            <span class="update-date">Aug 2025</span>
+            <p>Started PhD in Urban & Regional Planning at UH Mānoa.</p>
+          </div>
+
+          <div class="update-item">
+            <span class="update-date">May 2024</span>
+            <p>Graduated with M.S. in Statistics-Analytics from UIUC.</p>
+          </div>
+
+          <div class="update-item">
+            <span class="update-date">Feb 2024</span>
+            <p>Joined UIUC iRisk Lab as Research Assistant, analyzing commercial real estate data.</p>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2026 Yuxi Tian. All rights reserved.</p>
-  </footer>
 </body>
 </html>

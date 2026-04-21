@@ -22,7 +22,7 @@ body {
    Global
 ------------------------------ */
 .container {
-  width: min(1080px, 90%);
+  width: min(1280px, 92%);
   margin: 0 auto;
 }
 
@@ -212,7 +212,7 @@ a:hover {
    Right Column
 ------------------------------ */
 .content-column {
-  max-width: 720px;
+  max-width: 900px;
   width: 100%;
 }
 

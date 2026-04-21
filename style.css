@@ -451,66 +451,104 @@ a:hover {
   }
 }
 /* ------------------------------
-   CV Page
+   CV Page - matched to Teaching
 ------------------------------ */
-.cv-page {
-  width: min(1100px, 92%);
+.cv-page-alt {
+  width: min(1200px, 92%);
   margin: 0 auto;
-  padding: 42px 0 70px;
+  padding: 40px 0 72px;
 }
 
-.cv-title {
-  font-family: Georgia, serif;
-  font-size: 2.4rem;
-  margin-bottom: 30px;
+.cv-hero {
+  margin-bottom: 34px;
+}
+
+.cv-main-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  line-height: 1.08;
   color: #1f2a44;
+  margin-bottom: 8px;
 }
 
-.cv-section {
-  margin-bottom: 38px;
+.cv-block {
+  margin-bottom: 46px;
 }
 
-.cv-section h2 {
-  font-size: 1.3rem;
+.cv-section-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.18;
   color: #1f2a44;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.cv-entry {
+  margin-bottom: 24px;
+  padding-left: 4px;
+}
+
+.cv-entry-title {
+  font-size: 1.08rem;
   font-weight: 700;
+  color: #1f2a44;
+  line-height: 1.6;
+  margin-bottom: 4px;
 }
 
-.cv-item {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 20px;
-  margin-bottom: 16px;
+.cv-term {
+  margin-left: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #64748b;
 }
 
-.cv-left {
-  font-size: 0.9rem;
+.cv-entry-org {
+  font-size: 0.98rem;
   color: #b8893c;
   font-weight: 600;
+  margin-bottom: 8px;
 }
 
-.cv-right {
-  font-size: 0.95rem;
+.cv-entry-note {
+  font-size: 0.96rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 8px;
+  max-width: 78ch;
+}
+
+.cv-list {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+.cv-list li {
+  font-size: 0.98rem;
+  line-height: 1.75;
   color: #475569;
-  line-height: 1.6;
-}
-
-.cv-right ul {
-  margin-top: 6px;
-  padding-left: 18px;
-}
-
-.cv-right li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  max-width: 82ch;
 }
 
 @media (max-width: 768px) {
-  .cv-item {
-    grid-template-columns: 1fr;
+  .cv-page-alt {
+    padding: 28px 0 56px;
   }
 
-  .cv-left {
-    margin-bottom: 4px;
+  .cv-entry-title {
+    line-height: 1.5;
+  }
+
+  .cv-term {
+    display: block;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+
+  .cv-entry-org,
+  .cv-entry-note,
+  .cv-list li {
+    font-size: 0.95rem;
   }
 }

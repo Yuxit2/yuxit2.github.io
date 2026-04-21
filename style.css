@@ -455,86 +455,107 @@ a:hover {
    CV Page - matched to Teaching
 ------------------------------ */
 .cv-page-alt {
-  width: min(1200px, 92%);
+  width: min(1120px, 92%);
   margin: 0 auto;
-  padding: 40px 0 72px;
+  padding: 34px 0 64px;
 }
 
 .cv-hero {
-  margin-bottom: 34px;
+  margin-bottom: 26px;
 }
 
 .cv-main-title {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.2rem, 4vw, 3.3rem);
-  line-height: 1.08;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  line-height: 1.1;
   color: #1f2a44;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .cv-block {
-  margin-bottom: 46px;
+  margin-bottom: 36px;
 }
 
 .cv-section-title {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.7rem, 3vw, 2.3rem);
-  line-height: 1.18;
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  line-height: 1.2;
   color: #1f2a44;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .cv-entry {
-  margin-bottom: 24px;
-  padding-left: 4px;
+  margin-bottom: 20px;
+  padding: 0 0 14px 4px;
+  border-bottom: 1px solid #ece9e2;
+}
+
+.cv-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .cv-entry-title {
-  font-size: 1.08rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #1f2a44;
-  line-height: 1.6;
+  line-height: 1.55;
   margin-bottom: 4px;
 }
 
 .cv-term {
   margin-left: 10px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: #64748b;
+  white-space: nowrap;
 }
 
 .cv-entry-org {
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   color: #b8893c;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  line-height: 1.6;
 }
 
 .cv-entry-note {
-  font-size: 0.96rem;
+  font-size: 0.94rem;
   color: #64748b;
-  line-height: 1.7;
+  line-height: 1.65;
   margin-bottom: 8px;
-  max-width: 78ch;
+  max-width: 76ch;
 }
 
 .cv-list {
   margin: 0;
-  padding-left: 1.35rem;
+  padding-left: 1.2rem;
 }
 
 .cv-list li {
-  font-size: 0.98rem;
-  line-height: 1.75;
+  font-size: 0.95rem;
+  line-height: 1.7;
   color: #475569;
-  margin-bottom: 8px;
-  max-width: 82ch;
+  margin-bottom: 6px;
+  max-width: 78ch;
 }
 
 @media (max-width: 768px) {
   .cv-page-alt {
-    padding: 28px 0 56px;
+    padding: 26px 0 52px;
+  }
+
+  .cv-hero {
+    margin-bottom: 22px;
+  }
+
+  .cv-block {
+    margin-bottom: 30px;
+  }
+
+  .cv-entry {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
   }
 
   .cv-entry-title {
@@ -550,6 +571,6 @@ a:hover {
   .cv-entry-org,
   .cv-entry-note,
   .cv-list li {
-    font-size: 0.95rem;
+    font-size: 0.93rem;
   }
 }

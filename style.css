@@ -154,6 +154,17 @@ a:hover {
   margin-top: 18px;
 }
 
+.icon-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .social-links a {
   width: 42px;
   height: 42px;

@@ -339,3 +339,49 @@ a:hover {
     font-size: 0.94rem;
   }
 }
+/* ------------------------------
+   Teaching Page
+------------------------------ */
+.teaching-layout {
+  max-width: 900px;
+  padding: 40px 0;
+}
+
+.page-title {
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+  color: #1f2a44;
+  margin-bottom: 30px;
+}
+
+.teaching-section {
+  margin-bottom: 40px;
+}
+
+.teaching-section h2 {
+  font-size: 1.4rem;
+  color: #1f2a44;
+  margin-bottom: 15px;
+}
+
+.teaching-item {
+  padding-left: 10px;
+}
+
+.teaching-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #1f2a44;
+}
+
+.teaching-meta {
+  font-size: 0.9rem;
+  color: #b8893c;
+  margin-bottom: 10px;
+}
+
+.teaching-item p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+}

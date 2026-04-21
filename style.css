@@ -450,3 +450,67 @@ a:hover {
     font-size: 0.95rem;
   }
 }
+/* ------------------------------
+   CV Page
+------------------------------ */
+.cv-page {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 42px 0 70px;
+}
+
+.cv-title {
+  font-family: Georgia, serif;
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #1f2a44;
+}
+
+.cv-section {
+  margin-bottom: 38px;
+}
+
+.cv-section h2 {
+  font-size: 1.3rem;
+  color: #1f2a44;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.cv-left {
+  font-size: 0.9rem;
+  color: #b8893c;
+  font-weight: 600;
+}
+
+.cv-right {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.cv-right ul {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+.cv-right li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .cv-item {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-left {
+    margin-bottom: 4px;
+  }
+}

@@ -1,32 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications - Yuxi Tian</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Yuxi Tian</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="course.html">Proposed Course</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="publications.html">Publications</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="site-logo">Yuxi Tian</div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li>
+            <a href="https://yuxit2.github.io/proposed_planning_course/" target="_blank" rel="noopener noreferrer">
+              Proposed Course
+            </a>
+          </li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a class="active" href="research.html">Research</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="publications">
-      <!-- Add your publications content here, using the data from publications.bib -->
+  <main class="container cv-page-alt">
+    <section class="cv-hero">
+      <h1 class="cv-main-title">Research</h1>
+      <p class="cv-entry-note">
+        My research interests lie at the intersection of transportation, data analytics,
+        urban systems, and equity. My work combines quantitative methods, geospatial analysis,
+        and applied planning perspectives to study mobility behavior, infrastructure performance,
+        and data-driven urban questions.
+      </p>
+    </section>
+
+    <section class="cv-block">
+      <h2 class="cv-section-title">Research Output</h2>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu, Hawaii
+          <span class="cv-term">2026</span>
+        </p>
+        <p class="cv-entry-org">Yuxi Tian, Suwan Shen</p>
+        <p class="cv-entry-note">
+          International Association for China Planning (IACP), Conference Paper (Accepted)
+        </p>
+      </div>
+    </section>
+
+    <section class="cv-block">
+      <h2 class="cv-section-title">Current and Recent Research</h2>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Deciphering Age-Based Transit Behavior Through Smart Card Analytics in Honolulu, Hawaii
+          <span class="cv-term">Sep 2025 – Present</span>
+        </p>
+        <p class="cv-entry-org">Research Project with Professor Suwan Shen, University of Hawai‘i at Mānoa</p>
+        <ul class="cv-list">
+          <li>Analyze HOLO Smart Card Data to examine age-based differences in transit behavior using stop-level regression and GIS-based land-use measures.</li>
+          <li>Develop indicators of transit performance, including route diversity, frequency, and reliability, and link them with built environment factors.</li>
+          <li>Identify distinct behavioral patterns between senior and adult riders and highlight equity implications for age-responsive transit planning.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Climate Impacts on Abnormal Charging Patterns at Electric Vehicle (EV) Stations in the U.S.
+          <span class="cv-term">Sep 2024 – May 2025</span>
+        </p>
+        <p class="cv-entry-org">Research Project</p>
+        <ul class="cv-list">
+          <li>Analyzed the EV Watts Public Database using Python and documented 40 distinct abnormal charging patterns over a 3.5-year period across the United States.</li>
+          <li>Conducted systematic literature reviews to explore connections between climatic factors and abnormal charging patterns.</li>
+          <li>Investigated abnormal usage patterns across land type, regional differences, seasonal trends, and connector types to uncover significant insights and relationships.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Research Assistant, IRisk Lab
+          <span class="cv-term">Feb 2024 – May 2025</span>
+        </p>
+        <p class="cv-entry-org">Program of Actuarial and Risk Management Sciences, University of Illinois Urbana-Champaign</p>
+        <p class="cv-entry-note">Data discovery and consolidation for commercial property</p>
+        <ul class="cv-list">
+          <li>Built user interfaces, including an autocomplete function for location selection, to improve usability for geographic data searches.</li>
+          <li>Developed a Python web scraping tool for automated data extraction from LoopNet commercial real estate listings.</li>
+          <li>Performed unit tests and executed ETL processes to support data operations and user workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cv-block">
+      <h2 class="cv-section-title">Selected Projects</h2>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Electric Vehicle Population Data Analysis
+          <span class="cv-term">Aug 2023 – Dec 2023</span>
+        </p>
+        <ul class="cv-list">
+          <li>Analyzed a dataset from the Washington State Department of Licensing and collected 297 survey questionnaires to examine how demographic, socio-economic, and lifestyle factors influence EV adoption.</li>
+          <li>Visualized sales trends, top models, and electric range to highlight market dynamics relevant to transportation planning.</li>
+          <li>Developed interactive plots and integrated datasets to support insights for transportation planning, environmental policy, and green mobility.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Analyzing Factors Influencing Student Achievement
+          <span class="cv-term">Mar 2024 – May 2024</span>
+        </p>
+        <ul class="cv-list">
+          <li>Explored how demographic, socio-economic, and lifestyle characteristics affected student academic performance.</li>
+          <li>Performed correlation analysis and multiple linear regression to identify key predictors of final grades.</li>
+          <li>Applied backward, forward, and stepwise model selection methods to improve model accuracy and identify significant predictors.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Missing Data in U.S. Death Dataset
+          <span class="cv-term">Oct 2023 – Dec 2023</span>
+        </p>
+        <ul class="cv-list">
+          <li>Analyzed patterns of missing data in a CDC dataset focused on predicting age of death.</li>
+          <li>Applied Regression, Multiple Imputation (MICE), and K-Nearest Neighbors (KNN) techniques.</li>
+          <li>Developed a predictive model estimating U.S. average life expectancy at 87 years.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Designing a Movie Recommender System
+          <span class="cv-term">Sep 2023 – Dec 2023</span>
+        </p>
+        <ul class="cv-list">
+          <li>Developed a dual-system movie recommendation app using ShinyApp from RStudio.</li>
+          <li>Implemented genre-based filtering for quick top-10 recommendations.</li>
+          <li>Used item-based collaborative filtering for personalized suggestions based on user ratings.</li>
+        </ul>
+      </div>
+
+      <div class="cv-entry">
+        <p class="cv-entry-title">
+          Cassava Root Identification with Processed Radar Images
+          <span class="cv-term">Jan 2023 – Apr 2023</span>
+        </p>
+        <ul class="cv-list">
+          <li>Cleaned an image dataset collected from real-field experiments to ensure data quality for analysis.</li>
+          <li>Developed a method to pinpoint root locations and define effective zones in images.</li>
+          <li>Applied Sobel, Canny, Watershed, and Wavelet algorithms, with Watershed performing best in identifying cassava plant clusters.</li>
+        </ul>
+      </div>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2026 Yuxi Tian. All rights reserved.</p>
-  </footer>
 </body>
 </html>

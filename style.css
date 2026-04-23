@@ -60,11 +60,9 @@ a:hover {
 }
 
 .site-logo {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.85rem, 3vw, 2.5rem);
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #1f2a44;
-  letter-spacing: -0.4px;
 }
 
 .site-nav ul {

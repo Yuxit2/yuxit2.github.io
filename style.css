@@ -60,8 +60,9 @@ a:hover {
 }
 
 .site-logo {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 600;
+  letter-spacing: 0.5px;
   color: #1f2a44;
 }
 

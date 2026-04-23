@@ -41,14 +41,12 @@ a:hover {
 .site-header {
   background: #f8f8f6;
   padding: 18px 0 12px;
+
   position: sticky;
   top: 0;
-  z-index: 100;
-}
+  z-index: 9999;  /* 用这个更安全 */
 
-.site-header {
-  position: relative;
-  z-index: 9999;
+  border-bottom: 1px solid #eee; /* 可选，但推荐 */
 }
 
 .nav-container {
